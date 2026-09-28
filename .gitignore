@@ -1,0 +1,24 @@
+# Local Claude Code instructions — never commit
+CLAUDE.local.md
+
+# .NET
+bin/
+obj/
+*.user
+appsettings.*.local.json
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vs/
